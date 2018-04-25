@@ -1,0 +1,70 @@
+/* Box Model Hack */
+* {
+  -moz-box-sizing: border-box; /* Firexfox */
+  -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+  box-sizing: border-box; /* IE */
+}
+
+/* Clear fix hack */
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+
+body, html{
+	height:100%;
+}
+/*--------------------------------Opening Start-------------------------------*/
+.cover-outer{
+	width:100%;
+	height:100%;
+	text-align:center;
+	background-color: #B1F9C1;
+	
+}
+.brand-name{
+	height:680px;
+	line-height:650px;
+}	
+h1{
+	font-family:'Playfair Display', serif;
+	letter-spacing: 20px;
+	font-size:20em;
+	color:white;
+}
+
+/*font-family: 'Playfair Display', serif;
+font-family: 'Raleway', sans-serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Nunito Sans', sans-serif;*/
+
+/*--------------------------------Opening End-------------------------------*/
+/*--------------------------------Nav Start-------------------------------*/
+nav{
+	width:100%;
+	height:90px;
+	/*padding-top:10px;*/
+	position: absolute;
+	/*background-color: white;*/
+	/*border-top: solid 2px white;*/
+	padding-top:5px;
+}
+li{
+	float:left;
+	width:20%;
+	height:100%;
+	text-align: center;
+	font-family:'Montserrat', sans-serif;
+	font-size: 30px;
+	border-right:white solid 2px;
+}
+a{
+	text-decoration: none;
+	color:#2A7132;
+}
+
+/*--------------------------------Nav End-------------------------------*/
